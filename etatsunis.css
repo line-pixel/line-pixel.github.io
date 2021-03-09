@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    background-color: #E9C9B1;
+    border: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 60px
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Gill Sans", sans-serif
+}
+
+#ny{
+    width: 657px;
+    margin-top: 15px;
+    margin-bottom: 15px
+    
+}
+
+
+#statuelib{
+    display: inline-block;
+    width: 290px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#park{
+    display: inline;
+    width: 570px;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#manhattan{
+    width: 590px;
+    padding-bottom: 10px;
+}
+
+#brooklyn{
+    width: 590px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}

@@ -1,0 +1,88 @@
+.header{
+    float: right
+}
+
+#menu{
+    width: 100%;
+    height: 60px;
+    background-color: #CAC0BE;
+    font-size: 16px;
+    font-family: sans-serif; "Helvetica Nueve";
+    padding-top: 13px;
+    padding-bottom: 3px;
+    position:relative;
+}
+    
+#menu a{
+    text-align: center;        
+    padding-top: 10px;
+    display:inline-block;
+    height: 30px;
+    width: 200px;
+    color:black;
+    text-decoration: none;
+    margin-right: 80px       
+}
+
+#proposition{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Apple Chancery", cursive;
+    font-weight: 800;
+}
+
+#soustexte{
+    font-size: 21px;
+    font-family: "Optima", sans-serif;
+    font-weight: 500;    
+    margin-top: -80px
+}
+
+.turquie, p{
+    font-family: "Optima", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 90px
+}
+
+p.alignLeft{
+    text-align: left
+}
+
+img.alignLeft{
+    margin: 15px; 
+    float: left
+}
+
+#phototurquie{
+    width: 500px;
+    margin-top: -20px;
+}
+
+img.alignRight{
+    float: right;
+}
+
+#photoam{
+    width: 500px;
+    padding-top: 70px;
+    margin-top: -150px;
+}
+
+.clear{
+    clear: both
+}
+
+#photoci{
+    width: 600px;
+    padding-top: 70px;
+    margin-top: -80px;
+}
+
+#photocuba{
+    width: 500px;
+    margin-top: -95px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html> <html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz voyage</title>
+<link rel="stylesheet" href="quiz.css"/>
+<script type="text/javascript" src="quiz.js"></script>
+</head>
+<body onload="initialisation()">
+    <div id="conteneur">
+        <div id ="menu">
+            <a href="index.html">Accueil</a> 
+            <a href="famille.html">Voyage Familiale</a>
+            <a href="culturel.html">Voyage Culturel</a>
+            <a href="quiz.html">Quiz voyage</a>
+            <a href="quisommesnous.html">Qui sommes-nous?</a>
+        </div>
+    </div>
+        
+    <fieldset>
+        <p>Partir à l'improviste ?</p>
+        <div>
+            <input type="radio" id="si" name="improviste" value="si">
+            <label for="si">Cela dépend si...</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="aventurier" name="improviste" value="aventurier">
+            <label for="aventurier">C'est parti !</label><br>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <p>Dans votre valise il y a toujours:</p>
+        <div>
+            <input type="radio" id="appareilphoto" name="valise" value="appareilphoto">
+            <label for="appareilphoto">Votre appareil photo</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="livre" name="valise" value="livre">
+            <label for="livre">Livre de voyage</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="boussole" name="valise" value="boussole">
+            <label for="boussole">Une boussole</label>
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <p>Qu'est-ce qui vous fascine le plus dans un pays étranger ?</p>
+        <div>
+            <input type="radio" id="site" name="pays" value="site">
+            <label for="site">Ses sites culturels</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="nature" name="pays" value="nature">
+            <label for="nature">Sa nature</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="habitants" name="pays" value="habitants">
+            <label for="habitants">Ses habitants</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="culture" name="pays" value="culture">
+            <label for="culture">La culture du pays</label>
+        </div>
+    </fieldset>
+    <button id="valider">Valider</button>
+
+    <footer>       
+        <div id="pied_de_page" class="inner">
+            <a href="langues.html"><p>Langues</p></a>
+            <a href="Contact.html"><p>Contact</p></a>
+        </div>
+    </footer>
+    
+</body></html>

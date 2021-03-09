@@ -1,0 +1,61 @@
+html{
+    background-color: #D7E4E4
+}
+
+.header{
+    background-color: #D8CFCF; 
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Didot", serif;
+    margin-top: -9px;
+    margin-left: 2px;
+    margin right: 2px
+}
+
+.photo{
+    text-align: center;
+    padding: 40px
+}
+
+#photointro{
+    width: 500px;
+}
+
+#intro{
+    text-align: center;
+    font-family: "Optima", sans-serif;
+    font-size: 60px;
+    color: orangered;
+    margin-top: 30px;
+    margin-bottom: 30px 
+}
+
+.titre{
+    font-family: "Optima", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding:7px
+}
+
+p{
+    font-family: "Optima", sans-serif;
+    font-size: 20px;
+    font-weight: 100
+}
+
+#pied_de_page{
+            text-align: center;
+            display: block;
+            background-color: #D8CFCF;
+            padding: 5px;     
+} 
+        
+#pied_de_page p{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding: -5px
+}
+
